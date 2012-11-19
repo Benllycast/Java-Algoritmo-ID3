@@ -1,0 +1,64 @@
+<?xml vercondicionon="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : reglas.xml
+    Created on : 1 de junio de 2010, 02:51 PM
+    Author     : Coordinador
+    Description:
+        Purpose of the document follows.
+-->
+
+<clase>Lentes</clase>
+
+<lista-de-atributos>
+    <atributo>
+        <nombre>Edad</nombre>
+        <lista-de-valores>
+            <valor>Adulto</valor>
+            <valor>Anciano</valor>
+            <valor>Joven</valor>
+        </lista-de-valores>
+    </atributo>
+    <atributo>
+        <nombre>Problema</nombre>
+        <lista-de-valores>
+            <valor>Miopia</valor>
+            <valor>Hipermetropia</valor>
+        </lista-de-valores>
+    </atributo>
+</lista-de-atributos>
+
+<arbol-de-decision>
+    <condicion>
+        <atributo>Prod. Lagrimas</atributo>
+        <valor>Normal</valor>
+
+        <condicion>
+            <atributo>Astigmatismo</atributo>
+            <valor>si</valor>
+
+            <condicion>
+                <atributo>Problema</atributo>
+                <valor>Hipermetropia</valor>
+
+                <condicion>
+                    <atributo>Edad</atributo>
+                    <valor>Joven</valor>
+
+                    <lista-de-resultados>
+                        <resultado>Duros</resultado>
+                    </lista-de-resultados>
+                </condicion>
+            </condicion>
+        </condicion>
+    </condicion>
+
+    <condicion>
+        <atributo>Prod. Lagrimas</atributo>
+        <valor>Reducida</valor>
+
+        <lista-de-resultados>
+            <resultado>Duros</resultado>
+        </lista-de-resultados>
+    </condicion>
+</arbol-de-decision>

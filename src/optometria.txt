@@ -1,0 +1,26 @@
+Edad	Problema	Astigmatismo	Prod.lágrimas	Lentes
+
+Adulto	Miopía		No		Normal		Blandos
+Adulto	Hipermetropía	No		Normal		Blandos
+Anciano	Hipermetropía	No		Normal		Blandos
+Joven	Miopía		No		Normal		Blandos
+Joven	Hipermetropía	No		Normal		Blandos
+Adulto	Miopía		Si		Normal		Duros
+Anciano	Miopía		Si		Normal		Duros
+Joven	Miopía		Si		Normal		Duros
+Joven	Hipermetropía	Si		Normal		Duros
+Adulto	Hipermetropía	Si		Normal		Ninguno
+Anciano	Miopía		No		Normal		Ninguno
+Anciano	Hipermetropía	Si		Normal		Ninguno
+Adulto	Miopía		No		Reducida	Ninguno
+Adulto	Miopía		Si		Reducida	Ninguno
+Adulto	Hipermetropía	No		Reducida	Ninguno
+Adulto	Hipermetropía	Si		Reducida	Ninguno
+Anciano	Miopía		No		Reducida	Ninguno
+Anciano	Miopía		Si		Reducida	Ninguno
+Anciano	Hipermetropía	No		Reducida	Ninguno
+Anciano	Hipermetropía	Si		Reducida	Ninguno
+Joven	Miopía		No		Reducida	Ninguno
+Joven	Miopía		Si		Reducida	Ninguno
+Joven	Hipermetropía	No		Reducida	Ninguno
+Joven	Hipermetropía	Si		Reducida	Ninguno

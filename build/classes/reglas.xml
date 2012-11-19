@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arbol-de-decision>
+    <condicion>
+        <atributo>Prod.lagrimas</atributo>
+        <valor>Normal</valor>
+        <condicion>
+            <atributo>Astigmatismo</atributo>
+            <valor>No</valor>
+            <condicion>
+                <atributo>Edad</atributo>
+                <valor>Adulto</valor>
+                <lista-de-resultados>
+                    <resultado>Blandos</resultado>
+                </lista-de-resultados>
+            </condicion>
+            <condicion>
+                <atributo>Edad</atributo>
+    <valor>Anciano</valor><condicion><atributo>Problema</atributo><valor>Miopia</valor><lista-de-resultados><resultado>Ninguno</resultado></lista-de-resultados></condicion><condicion><atributo>Problema</atributo><valor>Hipermetropia</valor><lista-de-resultados><resultado>Blandos</resultado></lista-de-resultados></condicion></condicion><condicion><atributo>Edad</atributo><valor>Joven</valor><lista-de-resultados><resultado>Blandos</resultado></lista-de-resultados></condicion></condicion><condicion><atributo>Astigmatismo</atributo><valor>Si</valor><condicion><atributo>Problema</atributo><valor>Miopia</valor><lista-de-resultados><resultado>Duros</resultado></lista-de-resultados></condicion><condicion><atributo>Problema</atributo><valor>Hipermetropia</valor><condicion><atributo>Edad</atributo><valor>Adulto</valor><lista-de-resultados><resultado>Ninguno</resultado></lista-de-resultados></condicion><condicion><atributo>Edad</atributo><valor>Anciano</valor><lista-de-resultados><resultado>Ninguno</resultado></lista-de-resultados></condicion><condicion><atributo>Edad</atributo><valor>Joven</valor><lista-de-resultados><resultado>Duros</resultado></lista-de-resultados></condicion></condicion></condicion></condicion><condicion><atributo>Prod.lagrimas</atributo><valor>Reducida</valor><lista-de-resultados><resultado>Ninguno</resultado></lista-de-resultados></condicion>
+</arbol-de-decision>

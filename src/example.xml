@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="song.css"?>
+
+<!DOCTYPE SONG SYSTEM "song.dtd">
+
+<SONG xmlns="http://metalab.unc.edu/xml/namespace/song"
+      xmlns:xlink="http://www.w3.org/1999/xlink">
+    <TITLE>Hot Cop</TITLE>
+    <PHOTO
+    xlink:type="simple" xlink:show="onLoad" xlink:href="hotcop.jpg"
+    ALT="Victor Willis in Cop Outfit" WIDTH="100" HEIGHT="200"/>
+    <COMPOSER>Jacques Morali</COMPOSER>
+    <COMPOSER>Henri Belolo</COMPOSER>
+    <COMPOSER>Victor Willis</COMPOSER>
+    <PRODUCER>Jacques Morali</PRODUCER>
+  <!-- The publisher is actually Polygram but I needed
+       an example of a general entity reference. -->
+    <PUBLISHER xlink:type="simple" xlink:href="http://www.amrecords.com/">
+    A &amp; M Records
+    </PUBLISHER>
+    <LENGTH>6:20</LENGTH>
+    <YEAR>1978</YEAR>
+    <ARTIST>Village People</ARTIST>
+</SONG>
+<!-- You can tell what album I was
+     listening to when I wrote this example -->
+
